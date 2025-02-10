@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e92866c06303f04bb754d25286542aa, type: 3}
+  m_Name: PlayerAudio
+  m_EditorClassIdentifier: 
+  playerWalk:
+    Guid:
+      Data1: -351837930
+      Data2: 1252656131
+      Data3: -1427202900
+      Data4: 1724413370
+    Path: event:/Player/PlayerWalk
+  playerJumpLand:
+    Guid:
+      Data1: -836316849
+      Data2: 1177396744
+      Data3: 1662022025
+      Data4: 1235786689
+    Path: event:/Player/PlayerJump_Land
+  playerVisceral:
+    Guid:
+      Data1: -531640895
+      Data2: 1120358447
+      Data3: -1473917805
+      Data4: -479297111
+    Path: event:/Player/PlayerVisceral
