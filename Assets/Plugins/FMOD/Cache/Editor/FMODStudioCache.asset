@@ -1,0 +1,1199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9196533686352262787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerWalk/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 2803289208
+    data2: 1551037730
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Concrete
+  - Concrete Water
+  - Concrete Dirt
+  - Garbage
+  Exists: 1
+--- !u!114 &-8903097026712884415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Virtuell/AMB_FireBarrel
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Virtuell/AMB_FireBarrel
+  Guid:
+    Data1: -894559709
+    Data2: 1163798508
+    Data3: 829577145
+    Data4: 2115344663
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &-8390874969206766648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Emitter_Soundswitch/AMB_Emitter_Monitor
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Emitter_Soundswitch/AMB_Emitter_Monitor
+  Guid:
+    Data1: 733100217
+    Data2: 1253902892
+    Data3: 1280038807
+    Data4: -2025173155
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3578959843672838103}
+  MinDistance: 1
+  MaxDistance: 10
+  Length: 0
+--- !u!114 &-8346728838976688680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Virtuell/AMB_MetalPipe
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Virtuell/AMB_MetalPipe
+  Guid:
+    Data1: -1593260993
+    Data2: 1131947537
+    Data3: -591945318
+    Data4: 1261729095
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 5
+  Length: 16000
+--- !u!114 &-7608286797331255241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerWalk/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &-7589399175824893095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerVisceral
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerVisceral
+  Guid:
+    Data1: -531640895
+    Data2: 1120358447
+    Data3: -1473917805
+    Data4: -479297111
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6669593355450361355}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7241290394039050402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AMB_Emitter_FireBarrel/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &-7063653497635010325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerJump_Land/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 2803289208
+    data2: 1551037730
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Concrete
+  - Concrete Water
+  - Concrete Dirt
+  - Garbage
+  Exists: 1
+--- !u!114 &-6728869157305765969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Emitter_Soundswitch/AMB_Emitter_Fan
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Emitter_Soundswitch/AMB_Emitter_Fan
+  Guid:
+    Data1: 1355719263
+    Data2: 1306189021
+    Data3: -2055893080
+    Data4: -677251816
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4844620728083780722}
+  MinDistance: 1
+  MaxDistance: 10
+  Length: 0
+--- !u!114 &-6669593355450361355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerVisceral/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &-6458759712175155435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Reverb_Snapshots/Tunnel_Reverb_Snapshot
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Reverb_Snapshots/Tunnel_Reverb_Snapshot
+  Guid:
+    Data1: 1786433923
+    Data2: 1320508027
+    Data3: 1896143783
+    Data4: 375745773
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-5101458884627442510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Emitter_Soundswitch/AMB_Emitter_Fusebox
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Emitter_Soundswitch/AMB_Emitter_Fusebox
+  Guid:
+    Data1: -781780309
+    Data2: 1308436065
+    Data3: 187736751
+    Data4: -1640320539
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6743086827298671083}
+  MinDistance: 1
+  MaxDistance: 10
+  Length: 0
+--- !u!114 &-5029158281134542890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Virtuell/AMB_Light
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Virtuell/AMB_Light
+  Guid:
+    Data1: 1532566869
+    Data2: 1322530707
+    Data3: 1603191730
+    Data4: 516730495
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 5.4
+  Length: 1000
+--- !u!114 &-4069481257827304229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AMB_Emitter_MetalPipe/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &-3898576830671434936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AMB_Tunnel/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &-3738075534838910185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Emitter_Soundswitch/AMB_Emitter_FireBarrel
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Emitter_Soundswitch/AMB_Emitter_FireBarrel
+  Guid:
+    Data1: -1027209035
+    Data2: 1318143424
+    Data3: 1683934122
+    Data4: 823446843
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -7241290394039050402}
+  MinDistance: 1
+  MaxDistance: 10
+  Length: 0
+--- !u!114 &-3689016167489317072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Emitter_Soundswitch/AMB_Emitter_VentShaft
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Emitter_Soundswitch/AMB_Emitter_VentShaft
+  Guid:
+    Data1: 721015243
+    Data2: 1172837335
+    Data3: -1884867448
+    Data4: 1451045971
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6669164795400106728}
+  MinDistance: 1
+  MaxDistance: 10
+  Length: 0
+--- !u!114 &-3477818551618136211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerWalk
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerWalk
+  Guid:
+    Data1: -351837930
+    Data2: 1252656131
+    Data3: -1427202900
+    Data4: 1724413370
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -9196533686352262787}
+  - {fileID: -7608286797331255241}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3400642453035640225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/Banks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638747927955400673
+  FileSizes:
+  - Name: 
+    Value: 3282
+  Exists: 1
+--- !u!114 &-3244697535064906894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Virtuell/AMB_Ventshaft
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Virtuell/AMB_Ventshaft
+  Guid:
+    Data1: -87474067
+    Data2: 1316178661
+    Data3: -1125180283
+    Data4: 1970979904
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 5
+  Length: 16000
+--- !u!114 &-2859577802136708374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/Banks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638747927955176128
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-1782601173206128567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Beds/AMB_ControlRoom
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Beds/AMB_ControlRoom
+  Guid:
+    Data1: 1936827068
+    Data2: 1300049166
+    Data3: -1489596767
+    Data4: -1549375489
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 586075905261393564}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1052133202662625137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerJump_Land
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerJump_Land
+  Guid:
+    Data1: -836316849
+    Data2: 1177396744
+    Data3: 1662022025
+    Data4: 1235786689
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -7063653497635010325}
+  - {fileID: 6545130272931195616}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-451336998851789766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Virtuell/AMB_Fan_Exhaust
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Virtuell/AMB_Fan_Exhaust
+  Guid:
+    Data1: -765334717
+    Data2: 1331814985
+    Data3: -755661648
+    Data4: 1298426072
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 37000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -3400642453035640225}
+  - {fileID: -2859577802136708374}
+  EditorEvents:
+  - {fileID: 3035285771404431627}
+  - {fileID: -3477818551618136211}
+  - {fileID: -8903097026712884415}
+  - {fileID: -8346728838976688680}
+  - {fileID: 5189844050338374693}
+  - {fileID: -451336998851789766}
+  - {fileID: -1052133202662625137}
+  - {fileID: -5029158281134542890}
+  - {fileID: 6771396200764969225}
+  - {fileID: -6728869157305765969}
+  - {fileID: -3244697535064906894}
+  - {fileID: 278717020933598506}
+  - {fileID: 3166629301370098318}
+  - {fileID: 3524807088137672979}
+  - {fileID: -6458759712175155435}
+  - {fileID: -5101458884627442510}
+  - {fileID: -3738075534838910185}
+  - {fileID: -8390874969206766648}
+  - {fileID: -1782601173206128567}
+  - {fileID: -7589399175824893095}
+  - {fileID: 1912150562122910423}
+  - {fileID: -3689016167489317072}
+  - {fileID: 9031554396300934747}
+  - {fileID: 5653685733614721447}
+  EditorParameters:
+  - {fileID: 6208992594821114394}
+  MasterBanks:
+  - {fileID: -2859577802136708374}
+  StringsBanks:
+  - {fileID: -3400642453035640225}
+  cacheTime: 638747927955400673
+  cacheVersion: 131617
+--- !u!114 &278717020933598506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Beds/AMB_Tunnel
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Beds/AMB_Tunnel
+  Guid:
+    Data1: -958546323
+    Data2: 1327635121
+    Data3: -1028702584
+    Data4: 900744535
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3898576830671434936}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &586075905261393564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AMB_ControlRoom/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &1912150562122910423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/AMB_Emitter_Soundswitch/AMB_Emitter_H\xE5l"
+  m_EditorClassIdentifier: 
+  Path: "event:/AMB_Emitter_Soundswitch/AMB_Emitter_H\xE5l"
+  Guid:
+    Data1: -2130683450
+    Data2: 1118243979
+    Data3: 1347582874
+    Data4: 216588562
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5574850941835484295}
+  MinDistance: 1
+  MaxDistance: 10
+  Length: 0
+--- !u!114 &2299306798941590265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AMB_Emitter_Lights/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &3035285771404431627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Virtuell/AMB_Monitor
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Virtuell/AMB_Monitor
+  Guid:
+    Data1: -765519615
+    Data2: 1131171692
+    Data3: -922172517
+    Data4: 1630982014
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20000
+--- !u!114 &3166629301370098318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Emitter_Soundswitch/AMB_Emitter_Lights
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Emitter_Soundswitch/AMB_Emitter_Lights
+  Guid:
+    Data1: 1459783549
+    Data2: 1196023153
+    Data3: -1587987794
+    Data4: 1395828343
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2299306798941590265}
+  MinDistance: 1
+  MaxDistance: 5.4
+  Length: 0
+--- !u!114 &3524807088137672979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/AMB_Virtuell/AMB_H\xE5l_2"
+  m_EditorClassIdentifier: 
+  Path: "event:/AMB_Virtuell/AMB_H\xE5l_2"
+  Guid:
+    Data1: 1572914561
+    Data2: 1194948341
+    Data3: -1569715010
+    Data4: 2024406376
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 30000
+--- !u!114 &3578959843672838103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AMB_Emitter_Monitor/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &4844620728083780722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AMB_Emitter_Fan/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &5189844050338374693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/AMB_Virtuell/AMB_H\xE5l"
+  m_EditorClassIdentifier: 
+  Path: "event:/AMB_Virtuell/AMB_H\xE5l"
+  Guid:
+    Data1: 1353717570
+    Data2: 1129649598
+    Data3: 231075467
+    Data4: -1440679795
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &5574850941835484295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: "parameter:/AMB_Emitter_H\xE5l/Sound Switch"
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &5653685733614721447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Emitter_Soundswitch/AMB_Emitter_MetalPipe
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Emitter_Soundswitch/AMB_Emitter_MetalPipe
+  Guid:
+    Data1: 1899724528
+    Data2: 1136564208
+    Data3: -1301329732
+    Data4: -418608175
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4069481257827304229}
+  MinDistance: 1
+  MaxDistance: 5
+  Length: 0
+--- !u!114 &6208992594821114394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: parameter:/Sound Switch
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &6545130272931195616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerJump_Land/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &6669164795400106728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AMB_Emitter_VentShaft/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &6743086827298671083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AMB_Emitter_Fusebox/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &6771396200764969225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Reverb_Snapshots/ControlRoom_Reverb_Snapshot
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Reverb_Snapshots/ControlRoom_Reverb_Snapshot
+  Guid:
+    Data1: 417279317
+    Data2: 1277752693
+    Data3: -202943334
+    Data4: 655753374
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &9031554396300934747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Virtuell/AMB_Fusebox
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Virtuell/AMB_Fusebox
+  Guid:
+    Data1: 528921562
+    Data2: 1143113024
+    Data3: -984939107
+    Data4: 1769247385
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17355
