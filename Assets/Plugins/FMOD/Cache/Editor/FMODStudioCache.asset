@@ -360,6 +360,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 5.4
   Length: 1000
+--- !u!114 &-4310697475370445105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Beds/AMB_Room_3
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Beds/AMB_Room_3
+  Guid:
+    Data1: 898920028
+    Data2: 1099477606
+    Data3: -624632172
+    Data4: -72658156
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-4069481257827304229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -516,10 +543,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Banks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638748008513028844
+  lastModified: 638748657717351242
   FileSizes:
   - Name: 
-    Value: 3328
+    Value: 3440
   Exists: 1
 --- !u!114 &-3244697535064906894
 MonoBehaviour:
@@ -563,7 +590,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Banks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638748008512908876
+  lastModified: 638748657717241445
   FileSizes: []
   Exists: 1
 --- !u!114 &-1782601173206128567
@@ -591,6 +618,33 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters:
   - {fileID: 586075905261393564}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1177131279774333890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Beds/AMB_Room_2
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Beds/AMB_Room_2
+  Guid:
+    Data1: 1638232523
+    Data2: 1148218124
+    Data3: 24157065
+    Data4: -1399720770
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -691,13 +745,16 @@ MonoBehaviour:
   - {fileID: 9031554396300934747}
   - {fileID: 5653685733614721447}
   - {fileID: 3244259364694124184}
+  - {fileID: 7403742878703442941}
+  - {fileID: -4310697475370445105}
+  - {fileID: -1177131279774333890}
   EditorParameters:
   - {fileID: 6208992594821114394}
   MasterBanks:
   - {fileID: -2859577802136708374}
   StringsBanks:
   - {fileID: -3400642453035640225}
-  cacheTime: 638748008513028844
+  cacheTime: 638748657717351242
   cacheVersion: 131617
 --- !u!114 &278717020933598506
 MonoBehaviour:
@@ -1197,6 +1254,33 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
+  Length: 0
+--- !u!114 &7403742878703442941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB_Beds/AMB_Room_1
+  m_EditorClassIdentifier: 
+  Path: event:/AMB_Beds/AMB_Room_1
+  Guid:
+    Data1: -898684636
+    Data2: 1079964177
+    Data3: 288088194
+    Data4: -1406155673
+  Banks:
+  - {fileID: -2859577802136708374}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
   Length: 0
 --- !u!114 &9031554396300934747
 MonoBehaviour:

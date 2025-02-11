@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1514201872949357447
+--- !u!1 &6821742828737212725
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,37 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1293954068455530974}
-  - component: {fileID: 1461598204150812239}
+  - component: {fileID: 8108836677684420658}
+  - component: {fileID: 8085888486419342614}
   m_Layer: 0
-  m_Name: TunnelAmbianceEmitter
+  m_Name: Room1AmbianceEmitter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1293954068455530974
+--- !u!4 &8108836677684420658
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514201872949357447}
+  m_GameObject: {fileID: 6821742828737212725}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7878277102889546441}
+  m_Father: {fileID: 7290995614276962620}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1461598204150812239
+--- !u!114 &8085888486419342614
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514201872949357447}
+  m_GameObject: {fileID: 6821742828737212725}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
@@ -47,11 +47,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -958546323
-      Data2: 1327635121
-      Data3: -1028702584
-      Data4: 900744535
-    Path: event:/AMB_Beds/AMB_Tunnel
+      Data1: -898684636
+      Data2: 1079964177
+      Data3: 288088194
+      Data4: -1406155673
+    Path: event:/AMB_Beds/AMB_Room_1
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -63,7 +63,7 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!1 &2012108156590414663
+--- !u!1 &8224411779164849223
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -71,37 +71,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7078454381904491199}
-  - component: {fileID: 2891540571821949044}
+  - component: {fileID: 3752834320001511419}
+  - component: {fileID: 2703611560537770600}
   m_Layer: 0
-  m_Name: ControlRoomAmbianceEmitter
+  m_Name: 'Room3AmbianceEmitter '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7078454381904491199
+--- !u!4 &3752834320001511419
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2012108156590414663}
+  m_GameObject: {fileID: 8224411779164849223}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7878277102889546441}
+  m_Father: {fileID: 7290995614276962620}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2891540571821949044
+--- !u!114 &2703611560537770600
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2012108156590414663}
+  m_GameObject: {fileID: 8224411779164849223}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
@@ -110,11 +110,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1936827068
-      Data2: 1300049166
-      Data3: -1489596767
-      Data4: -1549375489
-    Path: event:/AMB_Beds/AMB_ControlRoom
+      Data1: 898920028
+      Data2: 1099477606
+      Data3: -624632172
+      Data4: -72658156
+    Path: event:/AMB_Beds/AMB_Room_3
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -126,7 +126,7 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!1 &3305671827312898468
+--- !u!1 &8640206153404869180
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,43 +134,108 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7878277102889546441}
-  - component: {fileID: 1352801945987567774}
+  - component: {fileID: 7290995614276962620}
+  - component: {fileID: 710388841887417198}
   m_Layer: 0
-  m_Name: AudioManager
+  m_Name: AmbianceManger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7878277102889546441
+--- !u!4 &7290995614276962620
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3305671827312898468}
+  m_GameObject: {fileID: 8640206153404869180}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 94.33652, y: 22.35166, z: 272.17603}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.147747, y: -1.6004165, z: 1.6740714}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1293954068455530974}
-  - {fileID: 7078454381904491199}
+  - {fileID: 8108836677684420658}
+  - {fileID: 447616515218575260}
+  - {fileID: 3752834320001511419}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1352801945987567774
+--- !u!114 &710388841887417198
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3305671827312898468}
+  m_GameObject: {fileID: 8640206153404869180}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf854803ea2342c4a9f28e5682c3d27a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tunnelAmbianceEmitter: {fileID: 1461598204150812239}
-  controlRoomAmbianceEmitter: {fileID: 2891540571821949044}
+  Room1AmbianceEmitter: {fileID: 8085888486419342614}
+  Room2AmbianceEmitter: {fileID: 1901429022951623285}
+  Room3AmbianceEmitter: {fileID: 2703611560537770600}
+--- !u!1 &8950874062566163277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 447616515218575260}
+  - component: {fileID: 1901429022951623285}
+  m_Layer: 0
+  m_Name: 'Room2AmbianceEmitter '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &447616515218575260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8950874062566163277}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7290995614276962620}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1901429022951623285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8950874062566163277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1638232523
+      Data2: 1148218124
+      Data3: 24157065
+      Data4: -1399720770
+    Path: event:/AMB_Beds/AMB_Room_2
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20

@@ -8,9 +8,9 @@ using FMODUnity;
 // Deklarerar en public enumvariabel som heter Location och som innehåller olika locations ex. Outside, Inside..... Detta sker i global space
 public enum Location  
 {  
-   Tunnel,
-      ControlRoom
-         
+   Room1,
+   Room2,
+   Room3
 }
 
 public class AmbianceManager : MonoBehaviour
@@ -23,11 +23,13 @@ public class AmbianceManager : MonoBehaviour
    [Header("Ambiance Emitter")]
    
    [SerializeField]
-   private StudioEventEmitter tunnelAmbianceEmitter;
+   private StudioEventEmitter Room1AmbianceEmitter;
 
    [SerializeField] 
-   private StudioEventEmitter controlRoomAmbianceEmitter;
+   private StudioEventEmitter Room2AmbianceEmitter;
    
+   [SerializeField] 
+   private StudioEventEmitter Room3AmbianceEmitter;
 
    private StudioEventEmitter emitter; // denna emitter är tom och pekar egentligen bara på de andra ambianceemitterna
    private void Awake()
@@ -60,11 +62,14 @@ public class AmbianceManager : MonoBehaviour
    {
       switch (location)
       {
-         case Location.Tunnel:
-            emitter = tunnelAmbianceEmitter;// "emitter" är bara en referensvariabel för andra emitters
+         case Location.Room1:
+            emitter = Room1AmbianceEmitter;// "emitter" är bara en referensvariabel för andra emitters
             break;
-         case Location.ControlRoom:
-            emitter = controlRoomAmbianceEmitter;
+         case Location.Room2:
+            emitter = Room2AmbianceEmitter;
+            break;
+         case Location.Room3:
+            emitter = Room3AmbianceEmitter;
             break;
       }
    }
