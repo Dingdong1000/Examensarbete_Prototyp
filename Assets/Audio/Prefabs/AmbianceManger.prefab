@@ -51,7 +51,7 @@ MonoBehaviour:
       Data2: 1079964177
       Data3: 288088194
       Data4: -1406155673
-    Path: event:/AMB_Beds/AMB_Room_1
+    Path: event:/ExJobb/AMB_BED/AMB_Room_1
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -114,7 +114,7 @@ MonoBehaviour:
       Data2: 1099477606
       Data3: -624632172
       Data4: -72658156
-    Path: event:/AMB_Beds/AMB_Room_3
+    Path: event:/ExJobb/AMB_BED/AMB_Room_3
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -227,7 +227,7 @@ MonoBehaviour:
       Data2: 1148218124
       Data3: 24157065
       Data4: -1399720770
-    Path: event:/AMB_Beds/AMB_Room_2
+    Path: event:/ExJobb/AMB_BED/AMB_Room_2
   Event: 
   PlayEvent: 0
   StopEvent: 0

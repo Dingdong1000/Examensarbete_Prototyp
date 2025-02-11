@@ -1,60 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9199157182072984507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/AMB_Virtuell/AMB_H\xE5l"
-  m_EditorClassIdentifier: 
-  Path: "event:/AMB_Virtuell/AMB_H\xE5l"
-  Guid:
-    Data1: 1353717570
-    Data2: 1129649598
-    Data3: 231075467
-    Data4: -1440679795
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 10000
---- !u!114 &-8269483456096568761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Emitter_Soundswitch/AMB_Emitter_VentShaft
-  m_EditorClassIdentifier: 
-  Path: event:/AMB_Emitter_Soundswitch/AMB_Emitter_VentShaft
-  Guid:
-    Data1: 721015243
-    Data2: 1172837335
-    Data3: -1884867448
-    Data4: 1451045971
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -6518307221176193312}
-  MinDistance: 1
-  MaxDistance: 10
-  Length: 0
 --- !u!114 &-7753261016090843859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,35 +84,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-7205634914043210860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_Emitter_Monitor/Sound Switch
-  m_EditorClassIdentifier: 
-  Name: Sound Switch
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 729195603
-    data2: 3355705797
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Faktisk
-  - Virtuell
-  - Metaforisk
-  - Total
-  Exists: 1
---- !u!114 &-6990579486048011805
+--- !u!114 &-3622748375052057410
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -177,14 +94,70 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Beds/AMB_Room_2
+  m_Name: event:/ExJobb/AMB_Emitter/AMB_Emitter_TV
   m_EditorClassIdentifier: 
-  Path: event:/AMB_Beds/AMB_Room_2
+  Path: event:/ExJobb/AMB_Emitter/AMB_Emitter_TV
   Guid:
-    Data1: 1638232523
-    Data2: 1148218124
-    Data3: 24157065
-    Data4: -1399720770
+    Data1: -1291514955
+    Data2: 1290958054
+    Data3: 1600229822
+    Data4: -261339991
+  Banks:
+  - {fileID: 7232397106220208152}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6186660830590609040}
+  MinDistance: 1
+  MaxDistance: 10
+  Length: 0
+--- !u!114 &-2899908889628925928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ExJobb/AMB_Emitter/AMB_Emitter_Clock
+  m_EditorClassIdentifier: 
+  Path: event:/ExJobb/AMB_Emitter/AMB_Emitter_Clock
+  Guid:
+    Data1: -1956134749
+    Data2: 1204156192
+    Data3: 673396916
+    Data4: 1653580301
+  Banks:
+  - {fileID: 7232397106220208152}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1295073478323588855}
+  MinDistance: 1
+  MaxDistance: 10
+  Length: 0
+--- !u!114 &-2524900181053402456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ExJobb/AMB_BED/AMB_Room_3
+  m_EditorClassIdentifier: 
+  Path: event:/ExJobb/AMB_BED/AMB_Room_3
+  Guid:
+    Data1: 898920028
+    Data2: 1099477606
+    Data3: -624632172
+    Data4: -72658156
   Banks:
   - {fileID: 7232397106220208152}
   IsStream: 0
@@ -194,63 +167,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-6906481946293456128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_Emitter_FireBarrel/Sound Switch
-  m_EditorClassIdentifier: 
-  Name: Sound Switch
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 729195603
-    data2: 3355705797
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Faktisk
-  - Virtuell
-  - Metaforisk
-  - Total
-  Exists: 1
---- !u!114 &-6518307221176193312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_Emitter_VentShaft/Sound Switch
-  m_EditorClassIdentifier: 
-  Name: Sound Switch
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 729195603
-    data2: 3355705797
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Faktisk
-  - Virtuell
-  - Metaforisk
-  - Total
-  Exists: 1
---- !u!114 &-6437968142469831624
+--- !u!114 &-1396386754396798581
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -260,148 +177,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Virtuell/AMB_Ventshaft
+  m_Name: event:/ExJobb/AMB_Virtuell/AMB_Clock
   m_EditorClassIdentifier: 
-  Path: event:/AMB_Virtuell/AMB_Ventshaft
-  Guid:
-    Data1: -87474067
-    Data2: 1316178661
-    Data3: -1125180283
-    Data4: 1970979904
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 5
-  Length: 16000
---- !u!114 &-5226417456704803154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Emitter_Soundswitch/AMB_Emitter_Lights
-  m_EditorClassIdentifier: 
-  Path: event:/AMB_Emitter_Soundswitch/AMB_Emitter_Lights
-  Guid:
-    Data1: 1459783549
-    Data2: 1196023153
-    Data3: -1587987794
-    Data4: 1395828343
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -4661814944168810157}
-  MinDistance: 1
-  MaxDistance: 5.4
-  Length: 0
---- !u!114 &-4661814944168810157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_Emitter_Lights/Sound Switch
-  m_EditorClassIdentifier: 
-  Name: Sound Switch
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 729195603
-    data2: 3355705797
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Faktisk
-  - Virtuell
-  - Metaforisk
-  - Total
-  Exists: 1
---- !u!114 &-4497818488490432991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Beds/AMB_ControlRoom
-  m_EditorClassIdentifier: 
-  Path: event:/AMB_Beds/AMB_ControlRoom
-  Guid:
-    Data1: 1936827068
-    Data2: 1300049166
-    Data3: -1489596767
-    Data4: -1549375489
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 476865148883462125}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-4392045531254559444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_Tunnel/Sound Switch
-  m_EditorClassIdentifier: 
-  Name: Sound Switch
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 729195603
-    data2: 3355705797
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Faktisk
-  - Virtuell
-  - Metaforisk
-  - Total
-  Exists: 1
---- !u!114 &-3957539694090972826
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Virtuell/AMB_FireBarrel
-  m_EditorClassIdentifier: 
-  Path: event:/AMB_Virtuell/AMB_FireBarrel
+  Path: event:/ExJobb/AMB_Virtuell/AMB_Clock
   Guid:
     Data1: -894559709
     Data2: 1163798508
@@ -416,117 +194,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10000
---- !u!114 &-3384098468470801639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Virtuell/AMB_Fusebox
-  m_EditorClassIdentifier: 
-  Path: event:/AMB_Virtuell/AMB_Fusebox
-  Guid:
-    Data1: 528921562
-    Data2: 1143113024
-    Data3: -984939107
-    Data4: 1769247385
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 17355
---- !u!114 &-3088248800564165061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Beds/AMB_Tunnel
-  m_EditorClassIdentifier: 
-  Path: event:/AMB_Beds/AMB_Tunnel
-  Guid:
-    Data1: -958546323
-    Data2: 1327635121
-    Data3: -1028702584
-    Data4: 900744535
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -4392045531254559444}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-1465820191322632170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_Emitter_Fan/Sound Switch
-  m_EditorClassIdentifier: 
-  Name: Sound Switch
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 729195603
-    data2: 3355705797
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Faktisk
-  - Virtuell
-  - Metaforisk
-  - Total
-  Exists: 1
---- !u!114 &-861050306024295254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Emitter_Soundswitch/AMB_Emitter_MetalPipe
-  m_EditorClassIdentifier: 
-  Path: event:/AMB_Emitter_Soundswitch/AMB_Emitter_MetalPipe
-  Guid:
-    Data1: 1899724528
-    Data2: 1136564208
-    Data3: -1301329732
-    Data4: -418608175
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 5286148967208631974}
-  MinDistance: 1
-  MaxDistance: 5
-  Length: 0
 --- !u!114 &-830287017273573759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -555,88 +222,6 @@ MonoBehaviour:
   - Concrete Dirt
   - Garbage
   Exists: 1
---- !u!114 &-429471797563509527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Virtuell/AMB_Fan_Exhaust
-  m_EditorClassIdentifier: 
-  Path: event:/AMB_Virtuell/AMB_Fan_Exhaust
-  Guid:
-    Data1: -765334717
-    Data2: 1331814985
-    Data3: -755661648
-    Data4: 1298426072
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 37000
---- !u!114 &-233740093175329411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Virtuell/AMB_Monitor
-  m_EditorClassIdentifier: 
-  Path: event:/AMB_Virtuell/AMB_Monitor
-  Guid:
-    Data1: -765519615
-    Data2: 1131171692
-    Data3: -922172517
-    Data4: 1630982014
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 20000
---- !u!114 &-193766260794728977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Emitter_Soundswitch/AMB_Emitter_Monitor
-  m_EditorClassIdentifier: 
-  Path: event:/AMB_Emitter_Soundswitch/AMB_Emitter_Monitor
-  Guid:
-    Data1: 733100217
-    Data2: 1253902892
-    Data3: 1280038807
-    Data4: -2025173155
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -7205634914043210860}
-  MinDistance: 1
-  MaxDistance: 10
-  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -653,43 +238,27 @@ MonoBehaviour:
   - {fileID: 4718023838736831960}
   - {fileID: 7232397106220208152}
   EditorEvents:
-  - {fileID: -233740093175329411}
   - {fileID: 7258043288858490658}
-  - {fileID: -3957539694090972826}
-  - {fileID: 1214801933330784193}
-  - {fileID: 1193376520115105702}
-  - {fileID: 3125824135534399567}
-  - {fileID: -9199157182072984507}
-  - {fileID: -429471797563509527}
   - {fileID: 5805859655642768873}
-  - {fileID: 8051982489953192299}
   - {fileID: 6346975478936895365}
-  - {fileID: 8365825110066710334}
-  - {fileID: 4164545614385526089}
-  - {fileID: -6437968142469831624}
-  - {fileID: -3088248800564165061}
-  - {fileID: -5226417456704803154}
-  - {fileID: 4332612209451933795}
   - {fileID: 6876086287595669224}
-  - {fileID: 2158949733586614353}
-  - {fileID: 5302540440465866645}
-  - {fileID: -193766260794728977}
-  - {fileID: -4497818488490432991}
   - {fileID: -7613526559240681292}
-  - {fileID: 9043713180825453354}
-  - {fileID: -6990579486048011805}
-  - {fileID: -8269483456096568761}
-  - {fileID: -3384098468470801639}
-  - {fileID: -861050306024295254}
+  - {fileID: -1396386754396798581}
+  - {fileID: 2361767326379389083}
+  - {fileID: 3469131576187777394}
+  - {fileID: -2524900181053402456}
+  - {fileID: -2899908889628925928}
+  - {fileID: -3622748375052057410}
+  - {fileID: 3668200786588116404}
   EditorParameters:
   - {fileID: -7753261016090843859}
   MasterBanks:
   - {fileID: 7232397106220208152}
   StringsBanks:
   - {fileID: 4718023838736831960}
-  cacheTime: 638748722427934396
+  cacheTime: 638748830738588913
   cacheVersion: 131617
---- !u!114 &476865148883462125
+--- !u!114 &1295073478323588855
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -699,7 +268,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_ControlRoom/Sound Switch
+  m_Name: parameter:/AMB_Emitter_Clock/Sound Switch
   m_EditorClassIdentifier: 
   Name: Sound Switch
   StudioPath: 
@@ -717,7 +286,7 @@ MonoBehaviour:
   - Metaforisk
   - Total
   Exists: 1
---- !u!114 &1193376520115105702
+--- !u!114 &2361767326379389083
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -727,36 +296,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Beds/AMB_Test
+  m_Name: event:/ExJobb/AMB_BED/AMB_Room_1
   m_EditorClassIdentifier: 
-  Path: event:/AMB_Beds/AMB_Test
-  Guid:
-    Data1: 1706668836
-    Data2: 1162493476
-    Data3: -1538222715
-    Data4: 118971680
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 48736
---- !u!114 &1214801933330784193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Beds/AMB_Room_1
-  m_EditorClassIdentifier: 
-  Path: event:/AMB_Beds/AMB_Room_1
+  Path: event:/ExJobb/AMB_BED/AMB_Room_1
   Guid:
     Data1: -898684636
     Data2: 1079964177
@@ -764,125 +306,14 @@ MonoBehaviour:
     Data4: -1406155673
   Banks:
   - {fileID: 7232397106220208152}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &2158949733586614353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Emitter_Soundswitch/AMB_Emitter_Fusebox
-  m_EditorClassIdentifier: 
-  Path: event:/AMB_Emitter_Soundswitch/AMB_Emitter_Fusebox
-  Guid:
-    Data1: -781780309
-    Data2: 1308436065
-    Data3: 187736751
-    Data4: -1640320539
-  Banks:
-  - {fileID: 7232397106220208152}
   IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 3983420993930328614}
-  MinDistance: 1
-  MaxDistance: 10
-  Length: 0
---- !u!114 &3125824135534399567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Virtuell/AMB_MetalPipe
-  m_EditorClassIdentifier: 
-  Path: event:/AMB_Virtuell/AMB_MetalPipe
-  Guid:
-    Data1: -1593260993
-    Data2: 1131947537
-    Data3: -591945318
-    Data4: 1261729095
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
-  MaxDistance: 5
-  Length: 16000
---- !u!114 &3706972149109013535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: "parameter:/AMB_Emitter_H\xE5l/Sound Switch"
-  m_EditorClassIdentifier: 
-  Name: Sound Switch
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 729195603
-    data2: 3355705797
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Faktisk
-  - Virtuell
-  - Metaforisk
-  - Total
-  Exists: 1
---- !u!114 &3983420993930328614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_Emitter_Fusebox/Sound Switch
-  m_EditorClassIdentifier: 
-  Name: Sound Switch
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 729195603
-    data2: 3355705797
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Faktisk
-  - Virtuell
-  - Metaforisk
-  - Total
-  Exists: 1
---- !u!114 &4164545614385526089
+  MaxDistance: 20
+  Length: 36000
+--- !u!114 &3469131576187777394
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -892,42 +323,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Emitter_Soundswitch/AMB_Emitter_Fan
+  m_Name: event:/ExJobb/AMB_Virtuell/AMB_TV
   m_EditorClassIdentifier: 
-  Path: event:/AMB_Emitter_Soundswitch/AMB_Emitter_Fan
+  Path: event:/ExJobb/AMB_Virtuell/AMB_TV
   Guid:
-    Data1: 1355719263
-    Data2: 1306189021
-    Data3: -2055893080
-    Data4: -677251816
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -1465820191322632170}
-  MinDistance: 1
-  MaxDistance: 10
-  Length: 0
---- !u!114 &4332612209451933795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/AMB_Virtuell/AMB_H\xE5l_2"
-  m_EditorClassIdentifier: 
-  Path: "event:/AMB_Virtuell/AMB_H\xE5l_2"
-  Guid:
-    Data1: 1572914561
-    Data2: 1194948341
-    Data3: -1569715010
-    Data4: 2024406376
+    Data1: -1521099455
+    Data2: 1317269766
+    Data3: 1587071671
+    Data4: 443069938
   Banks:
   - {fileID: 7232397106220208152}
   IsStream: 0
@@ -936,7 +339,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 30000
+  Length: 10000
+--- !u!114 &3668200786588116404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ExJobb/AMB_BED/AMB_Room_2
+  m_EditorClassIdentifier: 
+  Path: event:/ExJobb/AMB_BED/AMB_Room_2
+  Guid:
+    Data1: 1638232523
+    Data2: 1148218124
+    Data3: 24157065
+    Data4: -1399720770
+  Banks:
+  - {fileID: 7232397106220208152}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 64000
 --- !u!114 &4718023838736831960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -952,67 +382,11 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Banks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638748722427934396
+  lastModified: 638748830738588913
   FileSizes:
   - Name: 
-    Value: 3440
+    Value: 2736
   Exists: 1
---- !u!114 &5286148967208631974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_Emitter_MetalPipe/Sound Switch
-  m_EditorClassIdentifier: 
-  Name: Sound Switch
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 729195603
-    data2: 3355705797
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Faktisk
-  - Virtuell
-  - Metaforisk
-  - Total
-  Exists: 1
---- !u!114 &5302540440465866645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Emitter_Soundswitch/AMB_Emitter_FireBarrel
-  m_EditorClassIdentifier: 
-  Path: event:/AMB_Emitter_Soundswitch/AMB_Emitter_FireBarrel
-  Guid:
-    Data1: -1027209035
-    Data2: 1318143424
-    Data3: 1683934122
-    Data4: 823446843
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -6906481946293456128}
-  MinDistance: 1
-  MaxDistance: 10
-  Length: 0
 --- !u!114 &5674738208495628910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1070,6 +444,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &6186660830590609040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AMB_Emitter_TV/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
 --- !u!114 &6346975478936895365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1167,7 +569,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Banks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638748722427911208
+  lastModified: 638748830738489115
   FileSizes: []
   Exists: 1
 --- !u!114 &7258043288858490658
@@ -1199,60 +601,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &8051982489953192299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Virtuell/AMB_Light
-  m_EditorClassIdentifier: 
-  Path: event:/AMB_Virtuell/AMB_Light
-  Guid:
-    Data1: 1532566869
-    Data2: 1322530707
-    Data3: 1603191730
-    Data4: 516730495
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 5.4
-  Length: 1000
---- !u!114 &8365825110066710334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AMB_Beds/AMB_Room_3
-  m_EditorClassIdentifier: 
-  Path: event:/AMB_Beds/AMB_Room_3
-  Guid:
-    Data1: 898920028
-    Data2: 1099477606
-    Data3: -624632172
-    Data4: -72658156
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &8471976426287594357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1281,31 +629,3 @@ MonoBehaviour:
   - Metaforisk
   - Total
   Exists: 1
---- !u!114 &9043713180825453354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/AMB_Emitter_Soundswitch/AMB_Emitter_H\xE5l"
-  m_EditorClassIdentifier: 
-  Path: "event:/AMB_Emitter_Soundswitch/AMB_Emitter_H\xE5l"
-  Guid:
-    Data1: -2130683450
-    Data2: 1118243979
-    Data3: 1347582874
-    Data4: 216588562
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 3706972149109013535}
-  MinDistance: 1
-  MaxDistance: 10
-  Length: 0
