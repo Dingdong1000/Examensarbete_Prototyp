@@ -1799,14 +1799,14 @@ MonoBehaviour:
       Data2: 1204156192
       Data3: 673396916
       Data4: 1653580301
-    Path: event:/ExJobb/AMB_Emitter/AMB_Emitter_Clock
+    Path: event:/ExJobb/OBJ_Emitter/AMB_Emitter_Clock
   Event: 
-  PlayEvent: 1
-  StopEvent: 0
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  AllowNonRigidbodyDoppler: 0
+  NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
@@ -3372,14 +3372,14 @@ MonoBehaviour:
       Data2: 1204156192
       Data3: 673396916
       Data4: 1653580301
-    Path: event:/ExJobb/AMB_Emitter/AMB_Emitter_Clock
+    Path: event:/ExJobb/OBJ_Emitter/AMB_Emitter_Clock
   Event: 
-  PlayEvent: 1
-  StopEvent: 0
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  AllowNonRigidbodyDoppler: 0
+  NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
