@@ -1,393 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7753261016090843859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Sound Switch
-  m_EditorClassIdentifier: 
-  Name: Sound Switch
-  StudioPath: parameter:/Sound Switch
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 729195603
-    data2: 3355705797
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Faktisk
-  - Virtuell
-  - Metaforisk
-  - Total
-  Exists: 1
---- !u!114 &-7647678349934427541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/PlayerWalk/Surface
-  m_EditorClassIdentifier: 
-  Name: Surface
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 2803289208
-    data2: 1551037730
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Concrete
-  - Concrete Water
-  - Concrete Dirt
-  - Garbage
-  Exists: 1
---- !u!114 &-7613526559240681292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/PlayerVisceral
-  m_EditorClassIdentifier: 
-  Path: event:/Player/PlayerVisceral
-  Guid:
-    Data1: -531640895
-    Data2: 1120358447
-    Data3: -1473917805
-    Data4: -479297111
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 6593343265135721915}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-3622748375052057410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ExJobb/AMB_Emitter/AMB_Emitter_TV
-  m_EditorClassIdentifier: 
-  Path: event:/ExJobb/AMB_Emitter/AMB_Emitter_TV
-  Guid:
-    Data1: -1291514955
-    Data2: 1290958054
-    Data3: 1600229822
-    Data4: -261339991
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 6186660830590609040}
-  MinDistance: 1
-  MaxDistance: 10
-  Length: 0
---- !u!114 &-2899908889628925928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ExJobb/AMB_Emitter/AMB_Emitter_Clock
-  m_EditorClassIdentifier: 
-  Path: event:/ExJobb/AMB_Emitter/AMB_Emitter_Clock
-  Guid:
-    Data1: -1956134749
-    Data2: 1204156192
-    Data3: 673396916
-    Data4: 1653580301
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 1295073478323588855}
-  MinDistance: 1
-  MaxDistance: 10
-  Length: 0
---- !u!114 &-2524900181053402456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ExJobb/AMB_BED/AMB_Room_3
-  m_EditorClassIdentifier: 
-  Path: event:/ExJobb/AMB_BED/AMB_Room_3
-  Guid:
-    Data1: 898920028
-    Data2: 1099477606
-    Data3: -624632172
-    Data4: -72658156
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 21000
---- !u!114 &-1396386754396798581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ExJobb/AMB_Virtuell/AMB_Clock
-  m_EditorClassIdentifier: 
-  Path: event:/ExJobb/AMB_Virtuell/AMB_Clock
-  Guid:
-    Data1: -894559709
-    Data2: 1163798508
-    Data3: 829577145
-    Data4: 2115344663
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 10000
---- !u!114 &-830287017273573759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/PlayerJump_Land/Surface
-  m_EditorClassIdentifier: 
-  Name: Surface
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 2803289208
-    data2: 1551037730
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Concrete
-  - Concrete Water
-  - Concrete Dirt
-  - Garbage
-  Exists: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 4718023838736831960}
-  - {fileID: 7232397106220208152}
-  EditorEvents:
-  - {fileID: 7258043288858490658}
-  - {fileID: 5805859655642768873}
-  - {fileID: 6346975478936895365}
-  - {fileID: 6876086287595669224}
-  - {fileID: -7613526559240681292}
-  - {fileID: -1396386754396798581}
-  - {fileID: 2361767326379389083}
-  - {fileID: 3469131576187777394}
-  - {fileID: -2524900181053402456}
-  - {fileID: -2899908889628925928}
-  - {fileID: -3622748375052057410}
-  - {fileID: 3668200786588116404}
-  EditorParameters:
-  - {fileID: -7753261016090843859}
-  MasterBanks:
-  - {fileID: 7232397106220208152}
-  StringsBanks:
-  - {fileID: 4718023838736831960}
-  cacheTime: 638748849031381419
-  cacheVersion: 131617
---- !u!114 &1295073478323588855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_Emitter_Clock/Sound Switch
-  m_EditorClassIdentifier: 
-  Name: Sound Switch
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 729195603
-    data2: 3355705797
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Faktisk
-  - Virtuell
-  - Metaforisk
-  - Total
-  Exists: 1
---- !u!114 &2361767326379389083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ExJobb/AMB_BED/AMB_Room_1
-  m_EditorClassIdentifier: 
-  Path: event:/ExJobb/AMB_BED/AMB_Room_1
-  Guid:
-    Data1: -898684636
-    Data2: 1079964177
-    Data3: 288088194
-    Data4: -1406155673
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 36000
---- !u!114 &3469131576187777394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ExJobb/AMB_Virtuell/AMB_TV
-  m_EditorClassIdentifier: 
-  Path: event:/ExJobb/AMB_Virtuell/AMB_TV
-  Guid:
-    Data1: -1521099455
-    Data2: 1317269766
-    Data3: 1587071671
-    Data4: 443069938
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 10000
---- !u!114 &3668200786588116404
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ExJobb/AMB_BED/AMB_Room_2
-  m_EditorClassIdentifier: 
-  Path: event:/ExJobb/AMB_BED/AMB_Room_2
-  Guid:
-    Data1: 1638232523
-    Data2: 1148218124
-    Data3: 24157065
-    Data4: -1399720770
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 64000
---- !u!114 &4718023838736831960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD/Banks/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638748849031381419
-  FileSizes:
-  - Name: 
-    Value: 2736
-  Exists: 1
---- !u!114 &5674738208495628910
+--- !u!114 &-8860158569696032643
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -415,193 +28,7 @@ MonoBehaviour:
   - Metaforisk
   - Total
   Exists: 1
---- !u!114 &5805859655642768873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/PlayerJump_Land
-  m_EditorClassIdentifier: 
-  Path: event:/Player/PlayerJump_Land
-  Guid:
-    Data1: -836316849
-    Data2: 1177396744
-    Data3: 1662022025
-    Data4: 1235786689
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -830287017273573759}
-  - {fileID: 5674738208495628910}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &6186660830590609040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_Emitter_TV/Sound Switch
-  m_EditorClassIdentifier: 
-  Name: Sound Switch
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 729195603
-    data2: 3355705797
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Faktisk
-  - Virtuell
-  - Metaforisk
-  - Total
-  Exists: 1
---- !u!114 &6346975478936895365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/Reverb_Snapshots/ControlRoom_Reverb_Snapshot
-  m_EditorClassIdentifier: 
-  Path: snapshot:/Reverb_Snapshots/ControlRoom_Reverb_Snapshot
-  Guid:
-    Data1: 417279317
-    Data2: 1277752693
-    Data3: -202943334
-    Data4: 655753374
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
---- !u!114 &6593343265135721915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/PlayerVisceral/Sound Switch
-  m_EditorClassIdentifier: 
-  Name: Sound Switch
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 729195603
-    data2: 3355705797
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Faktisk
-  - Virtuell
-  - Metaforisk
-  - Total
-  Exists: 1
---- !u!114 &6876086287595669224
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/Reverb_Snapshots/Tunnel_Reverb_Snapshot
-  m_EditorClassIdentifier: 
-  Path: snapshot:/Reverb_Snapshots/Tunnel_Reverb_Snapshot
-  Guid:
-    Data1: 1786433923
-    Data2: 1320508027
-    Data3: 1896143783
-    Data4: 375745773
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
---- !u!114 &7232397106220208152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD/Banks/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638748849031267831
-  FileSizes: []
-  Exists: 1
---- !u!114 &7258043288858490658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/PlayerWalk
-  m_EditorClassIdentifier: 
-  Path: event:/Player/PlayerWalk
-  Guid:
-    Data1: -351837930
-    Data2: 1252656131
-    Data3: -1427202900
-    Data4: 1724413370
-  Banks:
-  - {fileID: 7232397106220208152}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -7647678349934427541}
-  - {fileID: 8471976426287594357}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &8471976426287594357
+--- !u!114 &-8571534389413526113
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -629,3 +56,576 @@ MonoBehaviour:
   - Metaforisk
   - Total
   Exists: 1
+--- !u!114 &-6640204400449237242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/Banks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638748860217329529
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6491787898597002084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerJump_Land/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 2803289208
+    data2: 1551037730
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Concrete
+  - Concrete Water
+  - Concrete Dirt
+  - Garbage
+  Exists: 1
+--- !u!114 &-6436594254145123047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerVisceral
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerVisceral
+  Guid:
+    Data1: -531640895
+    Data2: 1120358447
+    Data3: -1473917805
+    Data4: -479297111
+  Banks:
+  - {fileID: -6640204400449237242}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5256736896023928731}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4255071112635153682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: parameter:/Sound Switch
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &-2757444445540691006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ExJobb/AMB_BED/AMB_Room_2
+  m_EditorClassIdentifier: 
+  Path: event:/ExJobb/AMB_BED/AMB_Room_2
+  Guid:
+    Data1: 1638232523
+    Data2: 1148218124
+    Data3: 24157065
+    Data4: -1399720770
+  Banks:
+  - {fileID: -6640204400449237242}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 64000
+--- !u!114 &-995121165807142835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ExJobb/AMB_BED/AMB_Room_1
+  m_EditorClassIdentifier: 
+  Path: event:/ExJobb/AMB_BED/AMB_Room_1
+  Guid:
+    Data1: -898684636
+    Data2: 1079964177
+    Data3: 288088194
+    Data4: -1406155673
+  Banks:
+  - {fileID: -6640204400449237242}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 36000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 6539688523389882815}
+  - {fileID: -6640204400449237242}
+  EditorEvents:
+  - {fileID: 2562794065208036250}
+  - {fileID: 3917867035229703687}
+  - {fileID: -995121165807142835}
+  - {fileID: 6175344774051327925}
+  - {fileID: 7016308433335551320}
+  - {fileID: 9035970734404062782}
+  - {fileID: 2433917411920617473}
+  - {fileID: 2479193653527262932}
+  - {fileID: 1210173620373179021}
+  - {fileID: 1012350797169177173}
+  - {fileID: -6436594254145123047}
+  - {fileID: -2757444445540691006}
+  EditorParameters:
+  - {fileID: -4255071112635153682}
+  MasterBanks:
+  - {fileID: -6640204400449237242}
+  StringsBanks:
+  - {fileID: 6539688523389882815}
+  cacheTime: 638748860217430457
+  cacheVersion: 131622
+--- !u!114 &1012350797169177173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ExJobb/AMB_Emitter/AMB_Emitter_TV
+  m_EditorClassIdentifier: 
+  Path: event:/ExJobb/AMB_Emitter/AMB_Emitter_TV
+  Guid:
+    Data1: -1291514955
+    Data2: 1290958054
+    Data3: 1600229822
+    Data4: -261339991
+  Banks:
+  - {fileID: -6640204400449237242}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3957488849077832131}
+  MinDistance: 1
+  MaxDistance: 10
+  Length: 0
+--- !u!114 &1210173620373179021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ExJobb/AMB_Emitter/AMB_Emitter_Clock
+  m_EditorClassIdentifier: 
+  Path: event:/ExJobb/AMB_Emitter/AMB_Emitter_Clock
+  Guid:
+    Data1: -1956134749
+    Data2: 1204156192
+    Data3: 673396916
+    Data4: 1653580301
+  Banks:
+  - {fileID: -6640204400449237242}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5060870366403438196}
+  MinDistance: 1
+  MaxDistance: 10
+  Length: 0
+--- !u!114 &2433917411920617473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ExJobb/AMB_BED/AMB_Room_3
+  m_EditorClassIdentifier: 
+  Path: event:/ExJobb/AMB_BED/AMB_Room_3
+  Guid:
+    Data1: 898920028
+    Data2: 1099477606
+    Data3: -624632172
+    Data4: -72658156
+  Banks:
+  - {fileID: -6640204400449237242}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 21000
+--- !u!114 &2479193653527262932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Reverb_Snapshots/Tunnel_Reverb_Snapshot
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Reverb_Snapshots/Tunnel_Reverb_Snapshot
+  Guid:
+    Data1: 1786433923
+    Data2: 1320508027
+    Data3: 1896143783
+    Data4: 375745773
+  Banks:
+  - {fileID: -6640204400449237242}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &2562794065208036250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerWalk
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerWalk
+  Guid:
+    Data1: -351837930
+    Data2: 1252656131
+    Data3: -1427202900
+    Data4: 1724413370
+  Banks:
+  - {fileID: -6640204400449237242}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7965319659161848294}
+  - {fileID: -8571534389413526113}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3917867035229703687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ExJobb/AMB_Virtuell/AMB_Clock
+  m_EditorClassIdentifier: 
+  Path: event:/ExJobb/AMB_Virtuell/AMB_Clock
+  Guid:
+    Data1: -894559709
+    Data2: 1163798508
+    Data3: 829577145
+    Data4: 2115344663
+  Banks:
+  - {fileID: -6640204400449237242}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &3957488849077832131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AMB_Emitter_TV/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &5060870366403438196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AMB_Emitter_Clock/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &5256736896023928731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerVisceral/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
+--- !u!114 &6175344774051327925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ExJobb/AMB_Virtuell/AMB_TV
+  m_EditorClassIdentifier: 
+  Path: event:/ExJobb/AMB_Virtuell/AMB_TV
+  Guid:
+    Data1: -1521099455
+    Data2: 1317269766
+    Data3: 1587071671
+    Data4: 443069938
+  Banks:
+  - {fileID: -6640204400449237242}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &6539688523389882815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/Banks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638748860217430457
+  FileSizes:
+  - Name: 
+    Value: 2772
+  Exists: 1
+--- !u!114 &7016308433335551320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerJump_Land
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerJump_Land
+  Guid:
+    Data1: -836316849
+    Data2: 1177396744
+    Data3: 1662022025
+    Data4: 1235786689
+  Banks:
+  - {fileID: -6640204400449237242}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6491787898597002084}
+  - {fileID: -8860158569696032643}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7965319659161848294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerWalk/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 2803289208
+    data2: 1551037730
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Concrete
+  - Concrete Water
+  - Concrete Dirt
+  - Garbage
+  Exists: 1
+--- !u!114 &9035970734404062782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Reverb_Snapshots/ControlRoom_Reverb_Snapshot
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Reverb_Snapshots/ControlRoom_Reverb_Snapshot
+  Guid:
+    Data1: 417279317
+    Data2: 1277752693
+    Data3: -202943334
+    Data4: 655753374
+  Banks:
+  - {fileID: -6640204400449237242}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
