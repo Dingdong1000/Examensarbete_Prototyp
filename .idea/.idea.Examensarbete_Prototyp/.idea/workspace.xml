@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d0fe44f-eca1-47a1-ac35-dca8990216ac" name="Changes" comment="" />
+    <list default="true" id="6d0fe44f-eca1-47a1-ac35-dca8990216ac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Examensarbete_Prototyp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Examensarbete_Prototyp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Flickering.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Flickering.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +103,7 @@
       <workItem from="1739191605875" duration="396000" />
       <workItem from="1739264506929" duration="856000" />
       <workItem from="1739276201265" duration="561000" />
+      <workItem from="1739277351557" duration="659000" />
     </task>
     <servers />
   </component>
