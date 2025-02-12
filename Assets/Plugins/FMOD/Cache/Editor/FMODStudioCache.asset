@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9131960146424602733
+--- !u!114 &-8968055799787879188
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,25 +9,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_Emitter_TV/Sound Switch
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ExJobb/OBJ_Virtuell/OBJ_Virtuell_TV
   m_EditorClassIdentifier: 
-  Name: Sound Switch
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 729195603
-    data2: 3355705797
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Faktisk
-  - Virtuell
-  - Metaforisk
-  - Total
-  Exists: 1
+  Path: event:/ExJobb/OBJ_Virtuell/OBJ_Virtuell_TV
+  Guid:
+    Data1: -1521099455
+    Data2: 1317269766
+    Data3: 1587071671
+    Data4: 443069938
+  Banks:
+  - {fileID: 529222406047129791}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
 --- !u!114 &-8860158569696032643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,34 +138,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-7667850737524985067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_Emitter_Clock/Sound Switch
-  m_EditorClassIdentifier: 
-  Name: Sound Switch
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 729195603
-    data2: 3355705797
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Faktisk
-  - Virtuell
-  - Metaforisk
-  - Total
-  Exists: 1
 --- !u!114 &-7482343618578572107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,6 +193,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 10
   Length: 0
+--- !u!114 &-6747076415687316184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OBJ_Emitter_Clock/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
 --- !u!114 &-6640204400449237242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -616,10 +615,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Banks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638749015794250751
+  lastModified: 638749723040832494
   FileSizes:
   - Name: 
-    Value: 2030
+    Value: 2146
   Exists: 1
 --- !u!114 &-2757444445540691006
 MonoBehaviour:
@@ -675,6 +674,61 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 36000
+--- !u!114 &-491203780494081411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ExJobb/OBJ_Virtuell/OBJ_Virtuell_Clock
+  m_EditorClassIdentifier: 
+  Path: event:/ExJobb/OBJ_Virtuell/OBJ_Virtuell_Clock
+  Guid:
+    Data1: -894559709
+    Data2: 1163798508
+    Data3: 829577145
+    Data4: 2115344663
+  Banks:
+  - {fileID: 529222406047129791}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &-250902815685579007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OBJ_Emitter_TV/Sound Switch
+  m_EditorClassIdentifier: 
+  Name: Sound Switch
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 729195603
+    data2: 3355705797
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Faktisk
+  - Virtuell
+  - Metaforisk
+  - Total
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -692,24 +746,26 @@ MonoBehaviour:
   - {fileID: 529222406047129791}
   EditorEvents:
   - {fileID: 934458263047540225}
-  - {fileID: 888507413104499770}
   - {fileID: -5409672193355503493}
-  - {fileID: 4615636653441916060}
   - {fileID: -6377853377949178902}
   - {fileID: -8328025675875590554}
   - {fileID: -7482343618578572107}
   - {fileID: -3854408552929862845}
-  - {fileID: 6537678451824754722}
-  - {fileID: 4865354718033152450}
   - {fileID: -7673445797549052434}
   - {fileID: 2995862932084558284}
+  - {fileID: -491203780494081411}
+  - {fileID: -8968055799787879188}
+  - {fileID: 4705672468021917327}
+  - {fileID: 9124680296576910762}
+  - {fileID: 496398141814953839}
+  - {fileID: 2474122661159512372}
   EditorParameters:
   - {fileID: 6651450058272614312}
   MasterBanks:
   - {fileID: 529222406047129791}
   StringsBanks:
   - {fileID: -2852366294475149890}
-  cacheTime: 638749015794250751
+  cacheTime: 638749723040832494
   cacheVersion: 131622
 --- !u!114 &185579362701845621
 MonoBehaviour:
@@ -739,6 +795,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 10
   Length: 0
+--- !u!114 &496398141814953839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ExJobb/OBJ_Emitter/OBJ_Emitter_TV
+  m_EditorClassIdentifier: 
+  Path: event:/ExJobb/OBJ_Emitter/OBJ_Emitter_TV
+  Guid:
+    Data1: -1291514955
+    Data2: 1290958054
+    Data3: 1600229822
+    Data4: -261339991
+  Banks:
+  - {fileID: 529222406047129791}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -250902815685579007}
+  MinDistance: 1
+  MaxDistance: 10
+  Length: 0
 --- !u!114 &529222406047129791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -754,36 +838,9 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Banks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638749015794208399
+  lastModified: 638749723040740774
   FileSizes: []
   Exists: 1
---- !u!114 &888507413104499770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ExJobb/OBJ_Virtuell/AMB_Clock
-  m_EditorClassIdentifier: 
-  Path: event:/ExJobb/OBJ_Virtuell/AMB_Clock
-  Guid:
-    Data1: -894559709
-    Data2: 1163798508
-    Data3: 829577145
-    Data4: 2115344663
-  Banks:
-  - {fileID: 529222406047129791}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 10000
 --- !u!114 &934458263047540225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -840,6 +897,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 21000
+--- !u!114 &2474122661159512372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ExJobb/OBJ_Metaforisk/OBJ_Metaforisk_TV
+  m_EditorClassIdentifier: 
+  Path: event:/ExJobb/OBJ_Metaforisk/OBJ_Metaforisk_TV
+  Guid:
+    Data1: -1056384581
+    Data2: 1077633978
+    Data3: -854875474
+    Data4: -806637941
+  Banks:
+  - {fileID: 529222406047129791}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10500
 --- !u!114 &2479193653527262932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -951,7 +1035,7 @@ MonoBehaviour:
   - Metaforisk
   - Total
   Exists: 1
---- !u!114 &4615636653441916060
+--- !u!114 &4705672468021917327
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -961,50 +1045,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ExJobb/OBJ_Virtuell/AMB_TV
+  m_Name: event:/ExJobb/OBJ_Metaforisk/OBJ_Metaforisk_Clock
   m_EditorClassIdentifier: 
-  Path: event:/ExJobb/OBJ_Virtuell/AMB_TV
+  Path: event:/ExJobb/OBJ_Metaforisk/OBJ_Metaforisk_Clock
   Guid:
-    Data1: -1521099455
-    Data2: 1317269766
-    Data3: 1587071671
-    Data4: 443069938
+    Data1: -1709662814
+    Data2: 1299554698
+    Data3: 448408746
+    Data4: 746631592
   Banks:
   - {fileID: 529222406047129791}
   IsStream: 0
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 10000
---- !u!114 &4865354718033152450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ExJobb/OBJ_Emitter/AMB_Emitter_TV
-  m_EditorClassIdentifier: 
-  Path: event:/ExJobb/OBJ_Emitter/AMB_Emitter_TV
-  Guid:
-    Data1: -1291514955
-    Data2: 1290958054
-    Data3: 1600229822
-    Data4: -261339991
-  Banks:
-  - {fileID: 529222406047129791}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -9131960146424602733}
-  MinDistance: 1
-  MaxDistance: 10
   Length: 0
 --- !u!114 &5256736896023928731
 MonoBehaviour:
@@ -1034,34 +1090,6 @@ MonoBehaviour:
   - Metaforisk
   - Total
   Exists: 1
---- !u!114 &6537678451824754722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ExJobb/OBJ_Emitter/AMB_Emitter_Clock
-  m_EditorClassIdentifier: 
-  Path: event:/ExJobb/OBJ_Emitter/AMB_Emitter_Clock
-  Guid:
-    Data1: -1956134749
-    Data2: 1204156192
-    Data3: 673396916
-    Data4: 1653580301
-  Banks:
-  - {fileID: 529222406047129791}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -7667850737524985067}
-  MinDistance: 1
-  MaxDistance: 10
-  Length: 0
 --- !u!114 &6539688523389882815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1221,4 +1249,32 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
+  Length: 0
+--- !u!114 &9124680296576910762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ExJobb/OBJ_Emitter/OBJ_Emitter_Clock
+  m_EditorClassIdentifier: 
+  Path: event:/ExJobb/OBJ_Emitter/OBJ_Emitter_Clock
+  Guid:
+    Data1: -1956134749
+    Data2: 1204156192
+    Data3: 673396916
+    Data4: 1653580301
+  Banks:
+  - {fileID: 529222406047129791}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6747076415687316184}
+  MinDistance: 1
+  MaxDistance: 10
   Length: 0
