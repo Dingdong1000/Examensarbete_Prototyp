@@ -636,7 +636,7 @@ MonoBehaviour:
     Data4: 2115344663
   Banks:
   - {fileID: 529222406047129791}
-  IsStream: 0
+  IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters: []
@@ -708,7 +708,7 @@ MonoBehaviour:
   - {fileID: 529222406047129791}
   StringsBanks:
   - {fileID: -2852366294475149890}
-  cacheTime: 638750610538871126
+  cacheTime: 638751306129967916
   cacheVersion: 131622
 --- !u!114 &185579362701845621
 MonoBehaviour:
@@ -781,7 +781,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Banks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638750610538811657
+  lastModified: 638751306129967916
   FileSizes: []
   Exists: 1
 --- !u!114 &934458263047540225
