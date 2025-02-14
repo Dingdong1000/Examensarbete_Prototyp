@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Audio/AudioScripts/SilenceTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LightTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TickTock.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -113,7 +114,8 @@
       <workItem from="1739277351557" duration="659000" />
       <workItem from="1739295710764" duration="3173000" />
       <workItem from="1739299642313" duration="1363000" />
-      <workItem from="1739461558298" duration="376000" />
+      <workItem from="1739461558298" duration="494000" />
+      <workItem from="1739522547990" duration="4451000" />
     </task>
     <servers />
   </component>
