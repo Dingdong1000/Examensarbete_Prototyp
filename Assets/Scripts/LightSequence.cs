@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using UnityEngine;
+using TMPro;
 
 public class LightSequence : MonoBehaviour
 {
@@ -7,6 +9,8 @@ public class LightSequence : MonoBehaviour
     public GameObject doorToOpen;
     public LightSequence nextRoom;
     public float requiredTime = 5f; // Tid spelaren måste stå i ljuset
+
+    public TextMeshProUGUI timerText;
 
     private int currentIndex = 0;
     private bool isPlayerInLight = false;
@@ -36,6 +40,8 @@ public class LightSequence : MonoBehaviour
         if (isPlayerInLight)
         {
             timer += Time.deltaTime;
+            float timeLeft = Math.Clamp(requiredTime - timer, 0, requiredTime); 
+            timerText.text = timeLeft.ToString("0.0");
             if (timer >= requiredTime)
             {
                 NextLight();
@@ -44,6 +50,7 @@ public class LightSequence : MonoBehaviour
         else
         {
             timer = 0f; // Återställ timer om spelaren lämnar ljuset
+            timerText.text = " ";
         }
     }
 
@@ -74,7 +81,12 @@ public class LightSequence : MonoBehaviour
     {
         isPlayerInLight = true;
     }
-    
+
+    public void PlayerLeftLightZone()
+    {
+        isPlayerInLight = false;
+        timer = 0f;
+    }
     
     void ActivateNextRoom()
     {

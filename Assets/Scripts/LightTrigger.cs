@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class LightTrigger : MonoBehaviour
@@ -15,6 +16,14 @@ public class LightTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             controller.PlayerEnteredLightZone();
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            controller.PlayerLeftLightZone();
         }
     }
 }
