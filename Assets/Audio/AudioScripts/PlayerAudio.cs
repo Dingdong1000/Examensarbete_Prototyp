@@ -8,10 +8,10 @@ using FMODUnity;
 
 public class PlayerAudio : ScriptableObject
 {
-    [SerializeField] 
-    private EventReference playerWalk, playerJumpLand;
-    [SerializeField] 
-    private EventReference playerVisceral;
+    [SerializeField] private EventReference playerWalk, playerJumpLand;
+    [SerializeField] private EventReference playerVisceral;
+
+    [SerializeField] private EventReference introVoice;
 
     /*public void PlayerWalkAudio(GameObject player)
     {
@@ -74,7 +74,13 @@ public void PlayerJumpLandAudio(GameObject jumpLandObj, string surface)
 
 public void PlayerVisceralAudio()
 {
-    RuntimeManager.PlayOneShot(playerVisceral);
-}
+            RuntimeManager.PlayOneShot(playerVisceral);
+        }
 
+public void IntroVoice()
+{
+    RuntimeManager.PlayOneShot(introVoice);
+}
+    
+    
 }

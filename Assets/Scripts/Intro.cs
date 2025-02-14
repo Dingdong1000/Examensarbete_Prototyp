@@ -1,19 +1,25 @@
+
 using UnityEngine;
-using TMPro;  // För att använda TextMeshPro-komponenter
+using TMPro;
 using System.Collections;
 using UnityEngine.UI;
 
 public class Intro : MonoBehaviour
 {
-    public Image introImage;           // Referens till bilden
-    public TextMeshProUGUI introText1; // Referens till första TextMeshPro-objektet
+    public PlayerAudio playerAudio;
+    public Image introImage;
+    public TextMeshProUGUI initialText1;
+    public TextMeshProUGUI initialText2;
+    public TextMeshProUGUI initialText3;
+    public TextMeshProUGUI introText1;
     public TextMeshProUGUI introText2;
-    public TextMeshProUGUI introText3;// Referens till andra TextMeshPro-objektet
-    public float displayTime = 2f;     // Hur länge varje text visas (i sekunder)
+    public TextMeshProUGUI introText3;
+    public float displayTime = 2f;
     public float lastDisplayTime = 1f;
-    public float typingSpeed = 0.1f;   // Hur lång tid det tar för varje bokstav att visas (i sekunder)
+    public float typingSpeed = 0.1f;
 
     public GameObject player;
+    private bool canProceed = false;
     private bool canInteract = false;
 
     void Start()
@@ -22,34 +28,65 @@ public class Intro : MonoBehaviour
         {
             player.SetActive(false);
         }
-        // Starta introsekvensen när spelet startar
-        StartCoroutine(IntroSequenceRoutine());
+        
+        introImage.gameObject.SetActive(true); // Se till att introImage visas
+        StartCoroutine(InitialMessageRoutine());
+    }
+
+    IEnumerator InitialMessageRoutine()
+    {
+        introImage.CrossFadeAlpha(1f, 0f, false);
+        
+        
+        
+        initialText1.gameObject.SetActive(true);
+        yield return StartCoroutine(TypeText(introText1, "for this experiment we want you to use headphones..."));
+        yield return new WaitForSeconds(displayTime);
+
+        initialText2.gameObject.SetActive(true);
+        yield return StartCoroutine(TypeText(introText2, "...adjust the volume until this voice is at a comfortable level"));
+        yield return new WaitForSeconds(displayTime);
+        
+        playerAudio.IntroVoice();
+        initialText3.gameObject.SetActive(true);
+        yield return StartCoroutine(TypeText(introText3, "press any key to continue"));
+        
+        yield return new WaitForSeconds(lastDisplayTime);
+
+        canProceed = true;
+    }
+
+    void Update()
+    {
+        if (canProceed && Input.anyKeyDown)
+        {
+            canProceed = false;
+            
+            StartCoroutine(InitialFadeOut());
+            StartCoroutine(IntroSequenceRoutine());
+        }
+
+        if (canInteract && Input.anyKeyDown)
+        {
+            StartCoroutine(FadeOut());
+        }
     }
 
     IEnumerator IntroSequenceRoutine()
     {
-        // Visa bilden (t.ex. sätt alpha till 1 om den är genomskinlig)
-        introImage.CrossFadeAlpha(1f, 0f, false); // Bilden blir synlig direkt
-        introText1.gameObject.SetActive(true); // Gör den första texten synlig
-
-        // Skriv ut första texten bokstav för bokstav
+        introText1.gameObject.SetActive(true);
         yield return StartCoroutine(TypeText(introText1, "there will be three rooms to explore"));
+        yield return new WaitForSeconds(displayTime);
 
-        yield return new WaitForSeconds(displayTime); // Vänta 2 sekunder
-
-        introText2.gameObject.SetActive(true); // Gör den andra texten synlig
-
-        // Skriv ut andra texten bokstav för bokstav
+        introText2.gameObject.SetActive(true);
         yield return StartCoroutine(TypeText(introText2, "when you're ready..."));
-
         yield return new WaitForSeconds(displayTime);
         
-        yield return StartCoroutine(TypeText(introText3,"press any key to enter the prototype"));
-
-        // Vänta ytterligare 2 sekunder innan spelaren kan interagera
+        introText3.gameObject.SetActive(true);
+        yield return StartCoroutine(TypeText(introText3, "press any key to enter the prototype"));
+        
         yield return new WaitForSeconds(lastDisplayTime);
-
-        // Nu kan spelaren interagera genom att trycka på en knapp
+        
         if (player != null)
         {
             player.SetActive(true);
@@ -58,25 +95,35 @@ public class Intro : MonoBehaviour
         canInteract = true;
     }
 
-    // Coroutine som skriver ut text bokstav för bokstav
     IEnumerator TypeText(TextMeshProUGUI textMeshPro, string text)
     {
-        textMeshPro.text = "";  // Nollställ texten
+        textMeshPro.text = "";
         foreach (char letter in text)
         {
-            textMeshPro.text += letter;  // Lägg till en bokstav i taget
-            yield return new WaitForSeconds(typingSpeed);  // Vänta mellan varje bokstav
+            textMeshPro.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
         }
     }
-
-    void Update()
+    
+    IEnumerator InitialFadeOut()
     {
-        // Kolla om spelaren har tryckt på en knapp och avsluta introsekvensen
-        if (canInteract && Input.anyKeyDown)
+        float fadeDuration = 1f;
+        float elapsedTime = 0f;
+
+        while (elapsedTime < fadeDuration)
         {
-            // Här bleknar bilden och texterna ut
-            StartCoroutine(FadeOut());
+            float alphaValue = 1f - (elapsedTime / fadeDuration);
+            initialText1.CrossFadeAlpha(alphaValue, 0f, false);
+            initialText2.CrossFadeAlpha(alphaValue, 0f, false);
+            initialText3.CrossFadeAlpha(alphaValue, 0f, false);
+
+            elapsedTime += Time.deltaTime;
+            yield return null;
         }
+
+        initialText1.gameObject.SetActive(false);
+        initialText2.gameObject.SetActive(false);
+        initialText3.gameObject.SetActive(false);
     }
 
     IEnumerator FadeOut()
@@ -84,7 +131,6 @@ public class Intro : MonoBehaviour
         float fadeDuration = 1f;
         float elapsedTime = 0f;
 
-        // Låt alla UI-element blekna ut
         while (elapsedTime < fadeDuration)
         {
             float alphaValue = 1f - (elapsedTime / fadeDuration);
@@ -92,22 +138,18 @@ public class Intro : MonoBehaviour
             introText1.CrossFadeAlpha(alphaValue, 0f, false);
             introText2.CrossFadeAlpha(alphaValue, 0f, false);
             introText3.CrossFadeAlpha(alphaValue, 0f, false);
-
+            
             elapsedTime += Time.deltaTime;
             yield return null;
         }
 
-        // När allt har bleknat ut, gör alla objekt osynliga
         introImage.gameObject.SetActive(false);
         introText1.gameObject.SetActive(false);
         introText2.gameObject.SetActive(false);
         introText3.gameObject.SetActive(false);
-
-        // Här kan du släppa spelaren att röra sig eller byta till spelets huvudsakliga scen
-        // Om du behöver byta scen:
-        // SceneManager.LoadScene("MainScene");
     }
 }
+
 
 
 

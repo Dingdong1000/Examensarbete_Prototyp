@@ -87,7 +87,7 @@ public class LightSequence : MonoBehaviour
         isPlayerInLight = false;
         timer = 0f;
     }
-    
+
     void ActivateNextRoom()
     {
         if (nextRoom != null)
