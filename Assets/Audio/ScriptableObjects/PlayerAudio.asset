@@ -33,3 +33,10 @@ MonoBehaviour:
       Data3: -1473917805
       Data4: -479297111
     Path: event:/Player/PlayerVisceral
+  introVoice:
+    Guid:
+      Data1: -518407743
+      Data2: 1162522499
+      Data3: 424286609
+      Data4: 1085768160
+    Path: event:/ExJobb/Intro-Voice/Intro-Voice
