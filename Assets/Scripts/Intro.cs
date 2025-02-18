@@ -2,11 +2,13 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
+using FMOD.Studio;
+using FMODUnity;
 using UnityEngine.UI;
+using STOP_MODE = FMOD.Studio.STOP_MODE;
 
 public class Intro : MonoBehaviour
 {
-    public PlayerAudio playerAudio;
     public Image introImage;
     public TextMeshProUGUI initialText1;
     public TextMeshProUGUI initialText2;
@@ -19,6 +21,7 @@ public class Intro : MonoBehaviour
     public float lastDisplayTime = 1f;
     public float typingSpeed = 0.1f;
 
+    private EventInstance introVoice;
     public GameObject player;
     private bool canProceed = false;
     private bool canInteract = false;
@@ -47,8 +50,10 @@ public class Intro : MonoBehaviour
         initialText2.gameObject.SetActive(true);
         yield return StartCoroutine(TypeText(initialText2, "...adjust the volume until this voice is at a comfortable level"));
         yield return new WaitForSeconds(displayTime);
+
+        introVoice = RuntimeManager.CreateInstance("event:/ExJobb/Intro-Voice/Intro-Voice");
+        introVoice.start();
         
-        //playerAudio.IntroVoice();
         initialText3.gameObject.SetActive(true);
         yield return StartCoroutine(TypeText(initialText3, "press any key to continue"));
         
@@ -65,12 +70,19 @@ public class Intro : MonoBehaviour
             canProceed = false;
             canvasText1.SetActive(false);
             StartCoroutine(IntroSequenceRoutine());
+            StopEvent();
         }
 
         if (canInteract && Input.anyKeyDown)
         {
             StartCoroutine(FadeOut());
         }
+    }
+
+    public void StopEvent()
+    {
+        introVoice.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        introVoice.release();
     }
 
     IEnumerator IntroSequenceRoutine()

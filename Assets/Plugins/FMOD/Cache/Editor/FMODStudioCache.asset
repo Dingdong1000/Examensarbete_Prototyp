@@ -83,33 +83,6 @@ MonoBehaviour:
   - Metaforisk
   - Total
   Exists: 1
---- !u!114 &-8328025675875590554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/Reverb_Snapshots/ControlRoom_Reverb_Snapshot
-  m_EditorClassIdentifier: 
-  Path: snapshot:/Reverb_Snapshots/ControlRoom_Reverb_Snapshot
-  Guid:
-    Data1: 417279317
-    Data2: 1277752693
-    Data3: -202943334
-    Data4: 655753374
-  Banks:
-  - {fileID: -5958278843341616158}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &-7673445797549052434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,6 +165,33 @@ MonoBehaviour:
   - {fileID: -6066323759809452738}
   MinDistance: 1
   MaxDistance: 10
+  Length: 0
+--- !u!114 &-6811012673455192764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Reverb_Snapshots/Room_Reverb_Snapshot
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Reverb_Snapshots/Room_Reverb_Snapshot
+  Guid:
+    Data1: 1786433923
+    Data2: 1320508027
+    Data3: 1896143783
+    Data4: 375745773
+  Banks:
+  - {fileID: -5958278843341616158}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
   Length: 0
 --- !u!114 &-6747076415687316184
 MonoBehaviour:
@@ -338,7 +338,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Banks/HTML5/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638754860186333617
+  lastModified: 638754895143639007
   FileSizes: []
   Exists: 1
 --- !u!114 &-5434310560014166109
@@ -423,33 +423,6 @@ MonoBehaviour:
   - Metaforisk
   - Total
   Exists: 1
---- !u!114 &-3854408552929862845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/Reverb_Snapshots/Tunnel_Reverb_Snapshot
-  m_EditorClassIdentifier: 
-  Path: snapshot:/Reverb_Snapshots/Tunnel_Reverb_Snapshot
-  Guid:
-    Data1: 1786433923
-    Data2: 1320508027
-    Data3: 1896143783
-    Data4: 375745773
-  Banks:
-  - {fileID: -5958278843341616158}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &-3667151992882922762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -687,9 +660,7 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: 934458263047540225}
   - {fileID: -5409672193355503493}
-  - {fileID: -8328025675875590554}
   - {fileID: -7482343618578572107}
-  - {fileID: -3854408552929862845}
   - {fileID: -7673445797549052434}
   - {fileID: 2995862932084558284}
   - {fileID: -491203780494081411}
@@ -700,13 +671,15 @@ MonoBehaviour:
   - {fileID: 2474122661159512372}
   - {fileID: 5461162564656282509}
   - {fileID: -5434310560014166109}
+  - {fileID: -6811012673455192764}
+  - {fileID: 2026929546803269078}
   EditorParameters:
   - {fileID: 6651450058272614312}
   MasterBanks:
   - {fileID: -5958278843341616158}
   StringsBanks:
   - {fileID: 7149101861516428838}
-  cacheTime: 638754860186395559
+  cacheTime: 638754895143701345
   cacheVersion: 131622
 --- !u!114 &185579362701845621
 MonoBehaviour:
@@ -793,6 +766,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &2026929546803269078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ExJobb/Intro-Voice/Intro-Voice
+  m_EditorClassIdentifier: 
+  Path: event:/ExJobb/Intro-Voice/Intro-Voice
+  Guid:
+    Data1: -518407743
+    Data2: 1162522499
+    Data3: 424286609
+    Data4: 1085768160
+  Banks:
+  - {fileID: -5958278843341616158}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2240
 --- !u!114 &2433917411920617473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1132,10 +1132,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Banks/HTML5/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638754860186395559
+  lastModified: 638754895143701345
   FileSizes:
   - Name: 
-    Value: 2216
+    Value: 2240
   Exists: 1
 --- !u!114 &7349142949011217492
 MonoBehaviour:
