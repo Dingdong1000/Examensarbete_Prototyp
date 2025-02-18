@@ -14,6 +14,7 @@ public class Intro : MonoBehaviour
     public TextMeshProUGUI introText1;
     public TextMeshProUGUI introText2;
     public TextMeshProUGUI introText3;
+    public GameObject canvasText1;
     public float displayTime = 2f;
     public float lastDisplayTime = 1f;
     public float typingSpeed = 0.1f;
@@ -40,20 +41,21 @@ public class Intro : MonoBehaviour
         
         
         initialText1.gameObject.SetActive(true);
-        yield return StartCoroutine(TypeText(introText1, "for this experiment we want you to use headphones..."));
+        yield return StartCoroutine(TypeText(initialText1, "for this experiment we want you to use headphones..."));
         yield return new WaitForSeconds(displayTime);
 
         initialText2.gameObject.SetActive(true);
-        yield return StartCoroutine(TypeText(introText2, "...adjust the volume until this voice is at a comfortable level"));
+        yield return StartCoroutine(TypeText(initialText2, "...adjust the volume until this voice is at a comfortable level"));
         yield return new WaitForSeconds(displayTime);
         
-        playerAudio.IntroVoice();
+        //playerAudio.IntroVoice();
         initialText3.gameObject.SetActive(true);
-        yield return StartCoroutine(TypeText(introText3, "press any key to continue"));
+        yield return StartCoroutine(TypeText(initialText3, "press any key to continue"));
         
         yield return new WaitForSeconds(lastDisplayTime);
 
         canProceed = true;
+        
     }
 
     void Update()
@@ -61,8 +63,7 @@ public class Intro : MonoBehaviour
         if (canProceed && Input.anyKeyDown)
         {
             canProceed = false;
-            
-            StartCoroutine(InitialFadeOut());
+            canvasText1.SetActive(false);
             StartCoroutine(IntroSequenceRoutine());
         }
 
@@ -105,26 +106,6 @@ public class Intro : MonoBehaviour
         }
     }
     
-    IEnumerator InitialFadeOut()
-    {
-        float fadeDuration = 1f;
-        float elapsedTime = 0f;
-
-        while (elapsedTime < fadeDuration)
-        {
-            float alphaValue = 1f - (elapsedTime / fadeDuration);
-            initialText1.CrossFadeAlpha(alphaValue, 0f, false);
-            initialText2.CrossFadeAlpha(alphaValue, 0f, false);
-            initialText3.CrossFadeAlpha(alphaValue, 0f, false);
-
-            elapsedTime += Time.deltaTime;
-            yield return null;
-        }
-
-        initialText1.gameObject.SetActive(false);
-        initialText2.gameObject.SetActive(false);
-        initialText3.gameObject.SetActive(false);
-    }
 
     IEnumerator FadeOut()
     {
