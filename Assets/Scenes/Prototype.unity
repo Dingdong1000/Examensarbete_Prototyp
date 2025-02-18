@@ -367,7 +367,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7067096778973134420, guid: bed18b28302e64b9db81e6c5a76b8991, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1628280316}
   m_SourcePrefab: {fileID: 100100000, guid: bed18b28302e64b9db81e6c5a76b8991, type: 3}
 --- !u!1001 &37483547
 PrefabInstance:
@@ -1315,7 +1318,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99602b522e8c043c29b75615996c9fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAudio: {fileID: 0}
   introImage: {fileID: 1636036487}
   initialText1: {fileID: 2014091937}
   initialText2: {fileID: 2038407118}
@@ -11594,7 +11596,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7067096778973134420, guid: bed18b28302e64b9db81e6c5a76b8991, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2066197594}
   m_SourcePrefab: {fileID: 100100000, guid: bed18b28302e64b9db81e6c5a76b8991, type: 3}
 --- !u!4 &1320932886 stripped
 Transform:
@@ -15193,6 +15198,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2371879300490144058, guid: bed18b28302e64b9db81e6c5a76b8991, type: 3}
   m_PrefabInstance: {fileID: 33185308}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1628280316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628280314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 208722911
+      Data2: 1293318154
+      Data3: 1607431089
+      Data4: 565127306
+    Path: snapshot:/Visceral_Pause_Snapshot
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &1628334699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19065,6 +19101,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2371879300490144058, guid: bed18b28302e64b9db81e6c5a76b8991, type: 3}
   m_PrefabInstance: {fileID: 1317914262}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2066197594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066197592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: 208722911
+      Data2: 1293318154
+      Data3: 1607431089
+      Data4: 565127306
+    Path: snapshot:/Visceral_Pause_Snapshot
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 3
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &2071451691
 GameObject:
   m_ObjectHideFlags: 0

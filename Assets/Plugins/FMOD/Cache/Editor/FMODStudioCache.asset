@@ -311,10 +311,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Banks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638754946736569145
+  lastModified: 638755026131200956
   FileSizes:
   - Name: 
-    Value: 2374
+    Value: 2440
   Exists: 1
 --- !u!114 &-5434310560014166109
 MonoBehaviour:
@@ -648,13 +648,14 @@ MonoBehaviour:
   - {fileID: -5434310560014166109}
   - {fileID: 1313646262305790268}
   - {fileID: 4727004360030808263}
+  - {fileID: 3658779560477962866}
   EditorParameters:
   - {fileID: 6651450058272614312}
   MasterBanks:
   - {fileID: 1030882338288544284}
   StringsBanks:
   - {fileID: -5794807423431196247}
-  cacheTime: 638754946736569145
+  cacheTime: 638755026131200956
   cacheVersion: 131622
 --- !u!114 &185579362701845621
 MonoBehaviour:
@@ -756,7 +757,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Banks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638754946736453561
+  lastModified: 638755026131161135
   FileSizes: []
   Exists: 1
 --- !u!114 &1313646262305790268
@@ -951,6 +952,33 @@ MonoBehaviour:
   - Metaforisk
   - Total
   Exists: 1
+--- !u!114 &3658779560477962866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Visceral_Pause_Snapshot
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Visceral_Pause_Snapshot
+  Guid:
+    Data1: 208722911
+    Data2: 1293318154
+    Data3: 1607431089
+    Data4: 565127306
+  Banks:
+  - {fileID: 1030882338288544284}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &4705672468021917327
 MonoBehaviour:
   m_ObjectHideFlags: 0
