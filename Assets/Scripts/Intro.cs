@@ -47,7 +47,7 @@ public class Intro : MonoBehaviour
         yield return new WaitForSeconds(10f);
 
         initialText1.gameObject.SetActive(true);
-        yield return StartCoroutine(TypeText(initialText1, "for this experiment we want you to use headphones..."));
+        yield return StartCoroutine(TypeText(initialText1, "for this experiment we NEED you to use headphones..."));
         yield return new WaitForSeconds(displayTime);
 
         initialText2.gameObject.SetActive(true);
