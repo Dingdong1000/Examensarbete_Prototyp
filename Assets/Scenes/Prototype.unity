@@ -14554,7 +14554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7067096778973134420, guid: bed18b28302e64b9db81e6c5a76b8991, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7936073758723335438, guid: bed18b28302e64b9db81e6c5a76b8991, type: 3}
       propertyPath: m_Size.z
