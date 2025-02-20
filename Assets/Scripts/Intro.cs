@@ -20,7 +20,7 @@ public class Intro : MonoBehaviour
     public GameObject canvasText1;
     public float displayTime = 2f;
     public float lastDisplayTime = 1f;
-    public float typingSpeed = 0.1f;
+    public float typingSpeed = 0.01f;
 
     private EventInstance introVoice;
     public GameObject player;
@@ -43,11 +43,12 @@ public class Intro : MonoBehaviour
 
     IEnumerator InitialMessageRoutine()
     {
+        yield return new WaitForSeconds(2f); 
         introImage.CrossFadeAlpha(1f, 0f, false);
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(11f);
 
         initialText1.gameObject.SetActive(true);
-        yield return StartCoroutine(TypeText(initialText1, "for this experiment we NEED you to use headphones..."));
+        yield return StartCoroutine(TypeText(initialText1, "for this experiment we need you to use headphones..."));
         yield return new WaitForSeconds(displayTime);
 
         initialText2.gameObject.SetActive(true);
@@ -123,6 +124,8 @@ public class Intro : MonoBehaviour
 
     IEnumerator FadeIn()
     {
+        yield return new WaitForSeconds(2f);
+        
         float timer = 0;
         while (timer < fadeDuration)
         {
