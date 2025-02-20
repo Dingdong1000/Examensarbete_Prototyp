@@ -10,6 +10,7 @@ using STOP_MODE = FMOD.Studio.STOP_MODE;
 public class Intro : MonoBehaviour
 {
     public Image introImage;
+    public CanvasGroup initialText0;
     public TextMeshProUGUI initialText1;
     public TextMeshProUGUI initialText2;
     public TextMeshProUGUI initialText3;
@@ -25,6 +26,7 @@ public class Intro : MonoBehaviour
     public GameObject player;
     private bool canProceed = false;
     private bool canInteract = false;
+    public float fadeDuration = 2f;
 
     void Start()
     {
@@ -32,7 +34,9 @@ public class Intro : MonoBehaviour
         {
             player.SetActive(false);
         }
-        
+
+        initialText0.alpha = 0;
+        StartCoroutine(FadeIn());
         introImage.gameObject.SetActive(true); // Se till att introImage visas
         StartCoroutine(InitialMessageRoutine());
     }
@@ -40,9 +44,8 @@ public class Intro : MonoBehaviour
     IEnumerator InitialMessageRoutine()
     {
         introImage.CrossFadeAlpha(1f, 0f, false);
-        
-        
-        
+        yield return new WaitForSeconds(10f);
+
         initialText1.gameObject.SetActive(true);
         yield return StartCoroutine(TypeText(initialText1, "for this experiment we want you to use headphones..."));
         yield return new WaitForSeconds(displayTime);
@@ -117,7 +120,30 @@ public class Intro : MonoBehaviour
             yield return new WaitForSeconds(typingSpeed);
         }
     }
-    
+
+    IEnumerator FadeIn()
+    {
+        float timer = 0;
+        while (timer < fadeDuration)
+        {
+            timer += Time.deltaTime;
+            initialText0.alpha = Mathf.Lerp(0, 1, timer / fadeDuration);
+            yield return null;
+        }
+
+        // Display fully visible for a duration
+        yield return new WaitForSeconds(5f);
+
+        // Fade Out
+        timer = 0;
+        while (timer < fadeDuration)
+        {
+            timer += Time.deltaTime;
+            initialText0.alpha = Mathf.Lerp(1, 0, timer / fadeDuration);
+            yield return null;
+        }
+    }
+
 
     IEnumerator FadeOut()
     {
