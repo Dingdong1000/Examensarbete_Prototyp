@@ -4935,7 +4935,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 10
+  OverrideMaxDistance: 60
 --- !u!4 &573842829 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5262655109744571542, guid: ff52d1f95268e445fafecd71a57194ec, type: 3}
@@ -5154,7 +5154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45acba86ada334dec96f9a029d93245c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  switchValue: 2
+  switchValue: 1
 --- !u!65 &625894274
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7464,7 +7464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45acba86ada334dec96f9a029d93245c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  switchValue: 2
+  switchValue: 1
 --- !u!65 &884104977
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16127,7 +16127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45acba86ada334dec96f9a029d93245c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  switchValue: 1
+  switchValue: 2
 --- !u!65 &1632350210
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18392,7 +18392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45acba86ada334dec96f9a029d93245c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  switchValue: 1
+  switchValue: 2
 --- !u!65 &1911099893
 BoxCollider:
   m_ObjectHideFlags: 0
