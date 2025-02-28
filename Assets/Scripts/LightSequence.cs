@@ -8,7 +8,7 @@ public class LightSequence : MonoBehaviour
     public GameObject[] lights; // Array av lampor i ordning
     public GameObject doorToOpen;
     public LightSequence nextRoom;
-    public float requiredTime = 5f; // Tid spelaren måste stå i ljuset
+    public float requiredTime = 10f; // Tid spelaren måste stå i ljuset
 
     public TextMeshProUGUI timerText;
 
