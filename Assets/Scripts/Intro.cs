@@ -52,7 +52,7 @@ public class Intro : MonoBehaviour
         yield return new WaitForSeconds(displayTime);
 
         initialText2.gameObject.SetActive(true);
-        yield return StartCoroutine(TypeText(initialText2, "...adjust the volume until this voice is at a comfortable level"));
+        yield return StartCoroutine(TypeText(initialText2, "adjust the volume until this voice is at a comfortable level"));
         yield return new WaitForSeconds(displayTime);
 
         introVoice = RuntimeManager.CreateInstance("event:/ExJobb/Intro-Voice/Intro-Voice");
@@ -92,7 +92,7 @@ public class Intro : MonoBehaviour
     IEnumerator IntroSequenceRoutine()
     {
         introText1.gameObject.SetActive(true);
-        yield return StartCoroutine(TypeText(introText1, "there will be three rooms to explore"));
+        yield return StartCoroutine(TypeText(introText1, "there will be three rooms to experience"));
         yield return new WaitForSeconds(displayTime);
 
         introText2.gameObject.SetActive(true);
