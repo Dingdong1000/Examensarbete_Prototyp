@@ -100,7 +100,7 @@ public class Intro : MonoBehaviour
         yield return new WaitForSeconds(displayTime);
         
         introText3.gameObject.SetActive(true);
-        yield return StartCoroutine(TypeText(introText3, "press any key to enter the prototype"));
+        yield return StartCoroutine(TypeText(introText3, "press any key to enter the sandbox"));
         
         yield return new WaitForSeconds(lastDisplayTime);
         
